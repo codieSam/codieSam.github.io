@@ -576,7 +576,15 @@
                 </a>
               </li>
 
-              <li>
+							 <li>
+                <a href="category" class="waves-effect">
+                  <i class="uim uim-airplay"></i>
+                  
+                  <span>Category</span>
+                </a>
+              </li>
+
+              <!-- <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                   <i class="uim uim-comment-message"></i>
                   <span>Apps</span>
@@ -743,8 +751,8 @@
                   <i class="uim uim-document-layout-left"></i>
                   <span class="badge rounded-pill bg-danger float-end">6</span>
                   <span>Forms</span>
-                </a>
-                <ul class="sub-menu" aria-expanded="false">
+                </a> -->
+                <!-- <ul class="sub-menu" aria-expanded="false">
                   <li><a href="form-elements.html">Basic Elements</a></li>
                   <li><a href="form-validation.html">Validation</a></li>
                   <li><a href="form-plugins.html">Plugins</a></li>
@@ -804,9 +812,9 @@
                   </li>
                   <li><a href="charts-echart.html">E Charts</a></li>
                 </ul>
-              </li>
+              </li> -->
 
-              <li>
+              <!-- <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                   <i class="uim uim-object-ungroup"></i>
                   <span>Icons</span>
@@ -818,9 +826,9 @@
                   </li>
                   <li><a href="icons-unicons.html">Unicons</a></li>
                 </ul>
-              </li>
+              </li> -->
 
-              <li>
+              <!-- <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                   <i class="uim uim-comment-plus"></i>
                   <span>Maps</span>
@@ -849,7 +857,7 @@
                   </li>
                 </ul>
               </li>
-            </ul>
+            </ul> -->
           </div>
           <!-- Sidebar -->
         </div>
