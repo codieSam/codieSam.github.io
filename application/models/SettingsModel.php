@@ -11,6 +11,15 @@ class SettingsModel extends CI_Model{
 			return false;
 		}
 	}
+
+	public function add_banner($post){
+      $q = $this->db->insert('ec_banner',$post);
+	  if($q){
+		return true;
+	  }else{
+		return false;
+	  }
+	}
 }
 
 ?>

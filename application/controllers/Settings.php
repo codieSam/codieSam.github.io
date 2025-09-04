@@ -22,4 +22,19 @@ class Settings extends CI_Controller{
 			$this->load->view("pincode");
 		}
 	}
-}
+
+			public function banner(){
+				$this->form_validation->set_rules("bann_image","banner image","required|trim");
+				$this->form_validation->set_rules("status","status","required|trim");
+				if($this->form_validation->run()){
+					$post = $this->input->post();
+					$check = $this->SettingsModel->add_banner($post);
+					if($check){
+						$this->session->set_flashdata("succMsg", "Banner added successfully");
+						redirect("settings/banner");
+					}else{
+						$this->load->view('banner');
+					}
+				}
+			}
+		}
