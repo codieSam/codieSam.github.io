@@ -13,10 +13,16 @@ class Category extends CI_Controller{
 		$this->form_validation->set_rules('status', 'status', 'required|trim');
 		if($this->form_validation->run()){
 			$post = $this->input->post();
-			$this->categoryModel->add_category($post);
+			$check = $this->categoryModel->add_category($post);
+			
+			if($check){
+				$this->session->set_flashdata('succMsg','Data inserted successfully !');
+				redirect('category');
+			}
 
 		}else{
-			$this->load->view("category");
+			$data['categories'] = $this->categoryModel->get_all_category();
+			$this->load->view("category", $data);
 		}
 		
 	}

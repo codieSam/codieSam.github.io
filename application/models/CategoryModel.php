@@ -14,6 +14,14 @@ class CategoryModel extends CI_Model{
 			return false;
 		}
 	}
+
+
+public function get_all_category(){
+	$q = $this->db->where(['status'=> 1, 'parent_id' => null ])->get('ec_category');
+	if($q->num_rows()){
+		return $q->result();
+	}
+}
 }
 
 ?>

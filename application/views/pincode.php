@@ -47,7 +47,7 @@
                         class="card-header border-0 align-items-center d-flex pb-0"
                       >
                         <h4 class="card-title mb-0 flex-grow-1">
-                          Category
+                          Pincode
                         </h4>
                           <div class="text-center mt-4">
                           <a
@@ -68,23 +68,20 @@
 
                                    <?=form_open()?>                                          
                                             <div class="row">
-												 <div class="col-md-6">
-                                                    <div class="form-floating mb-3">
-                                                        <select class="form-select" id="floatingSelectGrid" name="parent_id" aria-label="Floating label select example">
-                                                            <option value="" selected disabled>Select</option>
-                                                           <?php foreach($categories as $cat){ ?>
-																														<option value="<?=$cat->category_id ?>"><?=$cat->category_name ?></option>
-																													<?php }?>
-                                                        </select>
-                                                        <label for="floatingSelectGrid">Parent category</label>
-                                                    </div>
-                                                </div>
+												
                                                 <div class="col-md-6">
                                                     <div class="form-floating mb-3">
-                                                        <input type="text" class="form-control" id="floatingFirstnameInput" placeholder="Enter category name" name="category_name">
-                                                    <label for="floatingFirstnameInput">Category Name</label>
+                                                        <input type="number" class="form-control" id="floatingFirstnameInput" placeholder="Enter pin code" name="pincode">
+                                                    <label for="floatingFirstnameInput">Pincode</label>
                                                     </div>
-													<?=form_error('category_name')?>
+													<?=form_error('pincode')?>
+                                                </div>
+												 <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="number" class="form-control" id="floatingFirstnameInput" placeholder="Enter deliver charge" name="deliver_charge">
+                                                    <label for="floatingFirstnameInput">Deliver Charge</label>
+                                                    </div>
+													<?=form_error('deliver_charge')?>
                                                 </div>
 												 <div class="col-md-6">
                                                     <div class="form-floating mb-3">

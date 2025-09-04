@@ -584,26 +584,16 @@
                 </a>
               </li>
 
-              <!-- <li>
+              <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                   <i class="uim uim-comment-message"></i>
-                  <span>Apps</span>
+                  <span>Settings</span>
                 </a>
                 <ul class="sub-menu" aria-expanded="true">
-                  <li>
-                    <a href="javascript: void(0);" class="has-arrow">Email</a>
-                    <ul class="sub-menu" aria-expanded="false">
-                      <li><a href="email-inbox.html">Inbox</a></li>
-                      <li><a href="email-read.html">Read Email</a></li>
-                    </ul>
-                  </li>
+                
 
-                  <li><a href="calendar.html">Calendar</a></li>
-
-                  <li><a href="apps-chat.html">Chat</a></li>
-
-                  <li><a href="apps-file-manager.html">File Manager</a></li>
-
+                  <li><a href="settings/pincode">Pincode</a></li>
+ <!--
                   <li>
                     <a href="javascript: void(0);" class="has-arrow">Invoice</a>
                     <ul class="sub-menu" aria-expanded="false">
