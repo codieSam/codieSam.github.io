@@ -592,8 +592,8 @@
                 <ul class="sub-menu" aria-expanded="true">
                 
 
-                  <li><a href="settings/pincode">Pincode</a></li>
-									<li><a href="settings/banner">Banner</a></li>
+                  <li><a href="settings/pincode"><span>Pincode</span></a></li>
+									<li><a href="settings/banner"><span>Banner</span></a></li>
  <!--
                   <li>
                     <a href="javascript: void(0);" class="has-arrow">Invoice</a>
